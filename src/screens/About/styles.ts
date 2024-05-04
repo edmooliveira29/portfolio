@@ -1,6 +1,6 @@
 import { theme } from '@/theme/theme';
 import Image from 'next/image';
-import { Container, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import styled from 'styled-components';
 
 
@@ -79,8 +79,3 @@ export const RowInfo = styled(Row)`
     flex-direction: column-reverse;
   }
 `
-
-export const ContainerScreen = styled(Container)`
-  height: calc(100vh - 60px);
-  margin-top: -60px
-  `

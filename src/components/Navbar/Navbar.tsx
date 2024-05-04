@@ -1,12 +1,29 @@
+import { useEffect, useState } from 'react';
 import { LogoImage, RowContainer, ContainerNavbar, ColContainer, OffcanvasNav, NavbarMenu, OffcanvasContainer, Items } from './styles';
 import logoImage from '@/assets/logo.png';
-import { useState } from 'portfolio/node_modules/@types/react';
 const NavBarComponent = () => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  useEffect(() => {
+    const smoothScroll = (target) => {
+      document.querySelector(target).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    };
 
+    const links = document.querySelectorAll('.scroll-link');
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        const target = link.getAttribute('href');
+        smoothScroll(target);
+        handleClose();
+      });
+    });
+  }, []);
+  
   return (
     <NavbarMenu expand="lg" >
       <ContainerNavbar>
@@ -25,19 +42,19 @@ const NavBarComponent = () => {
               <OffcanvasContainer.Body>
                 <OffcanvasNav className="ml-auto">
                   <OffcanvasNav.Link href="#home" onClick={handleClose}>HOME</OffcanvasNav.Link>
-                  <OffcanvasNav.Link href="#link" onClick={handleClose}>ABOUT</OffcanvasNav.Link>
-                  <OffcanvasNav.Link href="#link" onClick={handleClose}>PROJECTS</OffcanvasNav.Link>
-                  <OffcanvasNav.Link href="#link" onClick={handleClose}>CONTACT</OffcanvasNav.Link>
-                  <OffcanvasNav.Link href="#link" onClick={handleClose}>BLOG</OffcanvasNav.Link>
+                  <OffcanvasNav.Link href="#sobre" onClick={handleClose}>ABOUT</OffcanvasNav.Link>
+                  <OffcanvasNav.Link href="#projetos" onClick={handleClose}>PROJECTS</OffcanvasNav.Link>
+                  <OffcanvasNav.Link href="#contato" onClick={handleClose}>CONTACT</OffcanvasNav.Link>
+                  <OffcanvasNav.Link href="#blog" onClick={handleClose}>BLOG</OffcanvasNav.Link>
                 </OffcanvasNav>
               </OffcanvasContainer.Body>
             </OffcanvasContainer>
             <Items>
               <Items.Link href="#home">HOME</Items.Link>
-              <Items.Link href="#link">ABOUT</Items.Link>
-              <Items.Link href="#link">PROJECTS</Items.Link>
-              <Items.Link href="#link">CONTACT</Items.Link>
-              <Items.Link href="#link">BLOG</Items.Link>
+              <Items.Link href="#sobre">ABOUT</Items.Link>
+              <Items.Link href="#projetos">PROJECTS</Items.Link>
+              <Items.Link href="#contato">CONTACT</Items.Link>
+              <Items.Link href="#blog">BLOG</Items.Link>
             </Items>
           </ColContainer>
         </RowContainer>

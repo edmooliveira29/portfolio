@@ -1,6 +1,6 @@
+import React from 'react'
 import Box from '@/components/Box'
 import Navbar from '@/components/Navbar/Navbar'
-import { theme } from '@/theme/theme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from 'next/head';
 import './globals.css'

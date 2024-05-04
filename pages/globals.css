@@ -2,10 +2,13 @@ body {
   /* background-color: #0F343A; */
   background-color: #000000;
   background-image: url('../src/assets/image-background.png');
+
+  /* Full height */
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
-  position: relative;
 }
 
 html {

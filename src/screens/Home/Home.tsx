@@ -1,7 +1,7 @@
 import Box from '@/components/Box'
 import { Col, Container } from 'react-bootstrap'
 import imageHome from '@/assets/photo-home.png'
-import { ImageHome, SocialMedia, Text, RowInfo } from './styles'
+import { ImageHome, SocialMedia, Text, RowInfo, ContainerScreen} from './styles'
 import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { theme } from '@/theme/theme';
 
@@ -12,7 +12,7 @@ export const Home = () => {
       styleSheet={{
         height: 'calc(100vh - 60px)'
       }}>
-      <Container fluid>
+      <ContainerScreen fluid id='home'>
         <RowInfo>
           <Col lg={7} md={6} sm={12} >
             <Text>
@@ -35,7 +35,7 @@ export const Home = () => {
             </SocialMedia>
           </Col>
         </RowInfo>
-      </Container>
+      </ContainerScreen>
     </Box>
   )
 }

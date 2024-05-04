@@ -1,4 +1,4 @@
-import React from "portfolio/node_modules/@types/react";
+import React from 'react'
 import styled from "styled-components";
 import { parseStyleSheet } from "@displaykit/responsive_styles";
 import { StyleSheet } from './StyleSheet';

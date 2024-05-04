@@ -8,6 +8,7 @@ export const NavbarMenu = styled(Navbar)`
   top: 0;
   background-color: ${theme.colors.background};
   opacity: 95%;
+  height: 60px;
 `
 
 export const NavBarContainer = styled(Navbar)`
@@ -59,6 +60,10 @@ export const Items = styled(Nav)`
     a:hover {
       color: ${theme.colors.textPrimaryLight};
     }
+    .active { 
+      text-shadow: 0px 0px 10px rgba(255, 255, 255);
+    }
+
     @media screen and (max-width: 400px) {
       display: none;
     }
