@@ -1,76 +1,44 @@
 import { theme } from '@/theme/theme';
 import Image from 'next/image';
-import { Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import styled from 'styled-components';
 
 
-export const ImageHome = styled(Image)`
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
-  margin: 2rem;
-  width: 30rem;
-  height: 30rem;
-  img:hover {
-    transform: scale(1.1);
-  }
-
-  @media (max-width: 400px) {
-    width: 250px;
-    height: 250px;
-    margin: 2rem;
-  }
-`;
-
-export const Text = styled.div`
+export const TextTitle = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 10rem 2rem;
-  h1 {
+  margin: 3rem 2rem;
+  span {
     color : ${theme.colors.textTitle};
-    font-family: ${theme.typography.titles.fontFamily};
+    font-family: ${theme.typography.titles.titles};
     color: var(--Verde-letra-seleo, #95C9B0);
     text-align: center;
     text-shadow: 13px -9px 8.3px rgba(0, 0, 0, 0.26);
-    font-family: "Courier New";
-    font-size: 130px;
+    font-size: ${theme.typography.sizes.about.textTitleDesktop};
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
 
-  h4 {
-    color: #FFF;
-    text-align: center;
-    font-family: "Quicksand", sans-serif;
-    font-style: normal;
-    font-size: 41px;
-    font-weight: 700;
-    line-height: normal;
-  }
   @media (max-width: 400px) {
-    margin: 1rem;
+    margin: 0.2rem;
 
-    h1 {
-      font-size: 30px;
-    }
-    h4 {
-      font-size: 20px;
+    span {
+      font-size: ${theme.typography.sizes.about.textTitleMobile};
     }
   }
 `
 
-export  const SocialMedia = styled.div`
-  display: flex;
-  margin: 0 2rem;
-  justify-content: space-between;
-  a {
-    color: ${theme.colors.textPrimaryLight};
-    cursor: pointer;
-    svg:hover {
-      color: ${theme.colors.textPrimary};
-    }
+export const TextSubTitle = styled.span`
+  border-bottom: 3px solid ${theme.colors.textTitle};
+  font-size: ${theme.typography.sizes.about.textSubtitleDesktop};
+  font-weight: 500;
+  font-family: ${theme.typography.titles.titles};
+  color: ${theme.colors.textPrimary};
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+  @media screen and (max-width: 400px) {
+    font-size:  ${theme.typography.sizes.about.textSubtitleMobile};
   }
 `
 
@@ -78,4 +46,73 @@ export const RowInfo = styled(Row)`
   @media screen and (max-width: 400px) {
     flex-direction: column-reverse;
   }
+`
+
+export const IconeRow = styled(Row)`
+  margin: 1rem 2.5rem 0 2.5rem;
+  .icon-technology {
+    color: ${theme.colors.iconTechnology} !important;
+    width: 4em !important;
+    height: 4em !important;
+    margin: 0.5rem 0.5rem;
+  }
+  @media screen and (max-width: 400px) {
+    margin:1rem;
+
+    .icon-technology {
+      width: 1.5em !important;
+      height: 1.5em !important;
+      margin: 0.5rem 0.5rem;
+    }
+  }
+`
+
+export const TextTecnology = styled.span`
+  color: ${theme.colors.textPrimary};
+  margin: 1rem 2.5rem 0 2.5rem;
+  font-size: ${theme.typography.sizes.about.textTechnologyDesktop};
+  font-family: ${theme.typography.titles.fontFamily};
+  font-weight: 700;
+  display: contents;
+  @media screen and (max-width: 400px) {
+    font-size: ${theme.typography.sizes.about.textTechnologyMobile};
+  }
+`
+
+export const IconeCol = styled(Col)`
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  display: flex;
+`
+
+export const BackgroundImage = styled(Image)`
+  padding: 0 15px;
+  width: 55rem;
+  height: 50rem;
+  @media screen and (max-width: 400px) {
+    width: 28rem;
+    height: 35rem;
+    margin: 0.2rem 0 0 0;
+    left: 1rem;
+    position: relative;
+  }
+`;
+
+export const TextAboutMe = styled.span`
+    color: #FFF;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-size: ${theme.typography.sizes.about.textInfoDesktop};
+    font-weight: 700;
+    line-height: normal;
+    margin: 0rem 10rem 5rem 10rem;
+    position: absolute;
+    left: 48%;
+    @media screen and (max-width: 400px) {
+      left: 0rem;
+      font-size: ${theme.typography.sizes.about.textInfoMobile};
+      margin: 2rem 2rem;
+    }
 `

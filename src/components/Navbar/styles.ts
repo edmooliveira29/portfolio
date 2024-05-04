@@ -7,7 +7,7 @@ export const NavbarMenu = styled(Navbar)`
   position: sticky;
   top: 0;
   background-color: ${theme.colors.background};
-  opacity: 95%;
+  opacity: 90%;
   height: 60px;
 `
 
@@ -42,11 +42,9 @@ export const LogoImage = styled(Image)`
 export const Items = styled(Nav)`
     text-decoration: none;
     padding: 10px;
-    font-weight: bold;
     color: rgba(255, 255, 255, 0.74);
     text-align: center;
     font-family: ${theme.typography.titles.navBar};
-    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -54,7 +52,8 @@ export const Items = styled(Nav)`
 
     a {
       color: ${theme.colors.textPrimary};
-      font-size: 41px;
+      font-size: ${theme.typography.sizes.navBarDesktop};
+      margin: 0 0.5rem
     }
 
     a:hover {
@@ -112,9 +111,9 @@ export const OffcanvasNav = styled(Nav)`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-  a{
+  a {
     color: ${theme.colors.textPrimary};
-      font-size: 20px;
+    font-size: ${theme.typography.sizes.navBarMobile};
   }
   `
 

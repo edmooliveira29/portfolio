@@ -1,9 +1,11 @@
 import Box from '@/components/Box'
-import { Col, Container } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 import imageHome from '@/assets/photo-home.png'
-import { ImageHome, SocialMedia, Text, RowInfo, ContainerScreen} from './styles'
+import { ImageHome, SocialMedia, Text, RowInfo, ContainerScreen, ButtomMore } from './styles'
 import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { theme } from '@/theme/theme';
+import { MdKeyboardArrowDown } from "react-icons/md";
+import Link from 'next/link';
 
 export const Home = () => {
 
@@ -19,6 +21,12 @@ export const Home = () => {
               <h1 className='text-center'>Web Developer</h1>
               <h4>Formado em Engenharia da Computação pela Universidade Federal de Ouro Preto. Sendo desafiado dia após dia a criar soluções para problemas.</h4>
             </Text>
+            <ButtomMore>
+              <Link href='#sobre'>
+                SAIBA MAIS
+                <MdKeyboardArrowDown size={30} />
+              </Link>
+            </ButtomMore>
           </Col>
           <Col lg={5} md={6} sm={12} className='d-flex justify-content-center align-items-center flex-column'>
             <ImageHome src={imageHome} alt="logo" />

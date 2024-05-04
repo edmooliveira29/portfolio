@@ -8,7 +8,7 @@ export const ImageHome = styled(Image)`
   display: flex;
   align-items: center;
   padding: 0 15px;
-  margin: 2rem;
+  margin: 6rem 2rem 2rem 2rem ;
   width: 30rem;
   height: 30rem;
   img:hover {
@@ -26,7 +26,8 @@ export const Text = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 10rem 2rem;
+  justify-content: center;
+  margin: 10rem 2rem 1rem 2rem ;
   h1 {
     color : ${theme.colors.textTitle};
     font-family: ${theme.typography.titles.fontFamily};
@@ -34,7 +35,7 @@ export const Text = styled.div`
     text-align: center;
     text-shadow: 13px -9px 8.3px rgba(0, 0, 0, 0.26);
     font-family: "Courier New";
-    font-size: 130px;
+    font-size: ${theme.typography.sizes.home.title};
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -45,23 +46,22 @@ export const Text = styled.div`
     text-align: center;
     font-family: "Quicksand", sans-serif;
     font-style: normal;
-    font-size: 41px;
+    font-size: ${theme.typography.sizes.home.subtitle};
     font-weight: 700;
     line-height: normal;
   }
   @media (max-width: 400px) {
-    margin: 1rem;
-
+    margin: 2rem 1rem;
     h1 {
-      font-size: 30px;
+      font-size: ${theme.typography.sizes.home.titleMobile};
     }
     h4 {
-      font-size: 20px;
+      font-size: ${theme.typography.sizes.home.subtitleMobile};
     }
   }
 `
 
-export  const SocialMedia = styled.div`
+export const SocialMedia = styled.div`
   display: flex;
   margin: 0 2rem;
   justify-content: space-between;
@@ -83,4 +83,31 @@ export const RowInfo = styled(Row)`
 export const ContainerScreen = styled(Container)`
   height: calc(100vh - 60px);
   margin-top: -60px
-  `
+`
+
+export const ButtomMore = styled.div`
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0 20rem;
+  border: 2px solid ${theme.colors.primary};
+  background-color: transparent;
+  text-align: center;
+  color: ${theme.colors.primary};
+  font-family: ${theme.typography.titles.fontFamily};
+  font-weight: bold;
+  font-size: ${theme.typography.sizes.home.textButton};
+  &:hover {
+    background-color: ${theme.colors.primary};
+    color: ${theme.colors.background};
+    a{
+      color: ${theme.colors.background};
+    }
+  }
+
+  a{
+    text-decoration: none;
+    color: ${theme.colors.primary};
+  }
+
+  
+`
