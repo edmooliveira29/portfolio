@@ -1,7 +1,7 @@
 import Box from '@/components/Box'
 import { Col } from 'react-bootstrap'
 import imageHome from '@/assets/photo-home.png'
-import { ImageHome, SocialMedia, Text, RowInfo, ContainerScreen, ButtomMore } from './styles'
+import { ImageHome, SocialMedia, Text, RowInfo, ContainerScreen, ButtomMore, LinkButtom } from './styles'
 import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { theme } from '@/theme/theme';
 import { MdKeyboardArrowDown } from "react-icons/md";
@@ -22,10 +22,10 @@ export const Home = () => {
               <h4>Formado em Engenharia da Computação pela Universidade Federal de Ouro Preto. Sendo desafiado dia após dia a criar soluções para problemas.</h4>
             </Text>
             <ButtomMore>
-              <Link href='#sobre'>
+              <LinkButtom scroll={true} href='#sobre'>
                 SAIBA MAIS
                 <MdKeyboardArrowDown size={30} />
-              </Link>
+              </LinkButtom>
             </ButtomMore>
           </Col>
           <Col lg={5} md={6} sm={12} className='d-flex justify-content-center align-items-center flex-column'>

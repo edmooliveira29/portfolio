@@ -1,5 +1,6 @@
 import { theme } from '@/theme/theme';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Container, Row } from 'react-bootstrap';
 import styled from 'styled-components';
 
@@ -86,16 +87,25 @@ export const ContainerScreen = styled(Container)`
 `
 
 export const ButtomMore = styled.div`
-  border-radius: 15px;
   cursor: pointer;
-  margin: 0 20rem;
-  border: 2px solid ${theme.colors.primary};
   background-color: transparent;
   text-align: center;
   color: ${theme.colors.primary};
   font-family: ${theme.typography.titles.fontFamily};
   font-weight: bold;
   font-size: ${theme.typography.sizes.home.textButton};
+
+  a{
+    text-decoration: none;
+    color: ${theme.colors.primary};
+  }
+  
+`
+
+export const LinkButtom = styled(Link)`
+  border: 1px solid ${theme.colors.primary};
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
   &:hover {
     background-color: ${theme.colors.primary};
     color: ${theme.colors.background};
@@ -103,11 +113,4 @@ export const ButtomMore = styled.div`
       color: ${theme.colors.background};
     }
   }
-
-  a{
-    text-decoration: none;
-    color: ${theme.colors.primary};
-  }
-
-  
 `

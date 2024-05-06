@@ -10,10 +10,6 @@ import imageAboutMe from '@/assets/image-about-me.png'
 export const About = () => {
 
   return (
-    <Box
-      styleSheet={{
-        height: 'calc(100vh - 60px)'
-      }}>
       <Container fluid id='sobre'>
         <RowInfo>
           <Col lg={6} md={6} sm={12} >
@@ -124,6 +120,5 @@ export const About = () => {
           </Col>
         </RowInfo>
       </Container>
-    </Box>
   )
 }

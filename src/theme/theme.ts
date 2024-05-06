@@ -7,8 +7,8 @@ const theme = {
       titles: 'Oswald, sans-serif',
     },
     sizes:{
-      navBarDesktop: '2.5rem',
-      navBarMobile: '1.5rem',
+      navBarDesktop: '1.5rem',
+      navBarMobile: '1rem',
       home:{
         title: '5rem',
         subtitle: '2rem',
@@ -17,14 +17,14 @@ const theme = {
         textButton: '1.5rem',
       },
       about:{
-        textInfoDesktop: '1.5rem',
+        textInfoDesktop: '1.2rem',
         textInfoMobile: '1rem',
-        textTitleDesktop: '3rem',
-        textTitleMobile: '2rem',
-        textSubtitleDesktop: '1.8rem',
+        textTitleDesktop: '2rem',
+        textTitleMobile: '1rem',
+        textSubtitleDesktop: '1.5rem',
         textSubtitleMobile: '1rem',
-        textTechnologyDesktop: '1.2rem',
-        textTechnologyMobile: '0.8rem',
+        textTechnologyDesktop: '1.0rem',
+        textTechnologyMobile: '0.6rem',
       }
     }
   },

@@ -9,6 +9,7 @@ export const NavbarMenu = styled(Navbar)`
   background-color: ${theme.colors.background};
   opacity: 90%;
   height: 60px;
+  padding: 5px;
 `
 
 export const NavBarContainer = styled(Navbar)`
@@ -27,8 +28,8 @@ export const NavBarContainer = styled(Navbar)`
 export const LogoImage = styled(Image)`
   padding: 0 15px;
   max-width: 100%;
-  width: 314px;
-  height: 54px;
+  width: 250px;
+  height: 50px;
   @media screen and (max-width: 400px) {
     width: 180px;
     height: 45px;

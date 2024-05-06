@@ -1,13 +1,14 @@
 import { theme } from '@/theme/theme';
 import Image from 'next/image';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import styled from 'styled-components';
+
 
 export const TextTitle = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 1rem 1rem;
+  margin: 4rem 2rem;
   span {
     color : ${theme.colors.textTitle};
     font-family: ${theme.typography.titles.titles};
@@ -42,14 +43,13 @@ export const TextSubTitle = styled.span`
 `
 
 export const RowInfo = styled(Row)`
-  margin-top: 3rem ;
   @media screen and (max-width: 400px) {
     flex-direction: column-reverse;
   }
 `
 
 export const IconeRow = styled(Row)`
-  margin: 0.5rem 2.5rem 0 2.5rem;
+  margin: 1rem 2.5rem 0 2.5rem;
   .icon-technology {
     color: ${theme.colors.iconTechnology} !important;
     width: 4em !important;
