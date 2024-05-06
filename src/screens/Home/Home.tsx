@@ -10,10 +10,7 @@ import Link from 'next/link';
 export const Home = () => {
 
   return (
-    <Box
-      styleSheet={{
-        height: 'calc(100vh - 60px)'
-      }}>
+
       <ContainerScreen fluid id='home'>
         <RowInfo>
           <Col lg={7} md={6} sm={12} >
@@ -44,6 +41,5 @@ export const Home = () => {
           </Col>
         </RowInfo>
       </ContainerScreen>
-    </Box>
   )
 }

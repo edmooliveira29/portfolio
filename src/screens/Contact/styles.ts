@@ -1,5 +1,6 @@
 import { theme } from '@/theme/theme';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Col, Row } from 'react-bootstrap';
 import styled from 'styled-components';
 
@@ -31,39 +32,20 @@ export const TextTitle = styled.div`
 `
 
 export const TextSubTitle = styled.span`
-  border-bottom: 3px solid ${theme.colors.textTitle};
-  font-size: ${theme.typography.sizes.about.textSubtitleDesktop};
+  font-size: ${theme.typography.sizes.contact.textSubtitle};
   font-weight: 500;
   font-family: ${theme.typography.titles.titles};
   color: ${theme.colors.textPrimary};
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+  text-align: center;
   @media screen and (max-width: 400px) {
-    font-size:  ${theme.typography.sizes.about.textSubtitleMobile};
+    font-size:  ${theme.typography.sizes.contact.textSubtitleMobile};
   }
 `
 
 export const RowInfo = styled(Row)`
   @media screen and (max-width: 400px) {
     flex-direction: column-reverse;
-  }
-`
-
-export const IconeRow = styled(Row)`
-  margin: 1rem 2.5rem 0 2.5rem;
-  .icon-technology {
-    color: ${theme.colors.iconTechnology} !important;
-    width: 4em !important;
-    height: 4em !important;
-    margin: 0.5rem 0.5rem;
-  }
-  @media screen and (max-width: 400px) {
-    margin:1rem;
-
-    .icon-technology {
-      width: 1.5em !important;
-      height: 1.5em !important;
-      margin: 0.5rem 0.5rem;
-    }
   }
 `
 
@@ -115,4 +97,51 @@ export const TextAboutMe = styled.span`
       font-size: ${theme.typography.sizes.about.textInfoMobile};
       margin: 2rem 2rem;
     }
+`
+
+export const ButtomMore = styled.div`
+  cursor: pointer;
+  background-color: transparent;
+  text-align: center;
+  color: ${theme.colors.primary};
+  font-family: ${theme.typography.titles.fontFamily};
+  font-weight: bold;
+  font-size: ${theme.typography.sizes.home.textButton};
+
+  a{
+    text-decoration: none;
+    color: ${theme.colors.primary};
+  }
+  
+`
+
+export const LinkButtom = styled(Link)`
+  border: 1px solid ${theme.colors.primary};
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  &:hover {
+    background-color: ${theme.colors.primary};
+    color: ${theme.colors.background};
+    a{
+      color: ${theme.colors.background};
+    }
+  }
+`
+
+export const ColForm = styled(Col)`
+  margin: 10rem 0rem;
+  padding: 0 15rem;
+`
+
+export const SocialMedia = styled.div`
+  display: flex;
+  padding: 2rem 10rem;
+  justify-content: space-around;
+  a {
+    color: ${theme.colors.textPrimaryLight};
+    cursor: pointer;
+    svg:hover {
+      color: ${theme.colors.textPrimary};
+    }
+  }
 `

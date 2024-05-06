@@ -52,16 +52,16 @@ export const IconeRow = styled(Row)`
   margin: 0.5rem 2.5rem 0 2.5rem;
   .icon-technology {
     color: ${theme.colors.iconTechnology} !important;
-    width: 4em !important;
-    height: 4em !important;
+    width: 3em !important;
+    height: 3em !important;
     margin: 0.5rem 0.5rem;
   }
   @media screen and (max-width: 400px) {
     margin:1rem;
 
     .icon-technology {
-      width: 1.5em !important;
-      height: 1.5em !important;
+      width: 1.0em !important;
+      height: 1.0em !important;
       margin: 0.5rem 0.5rem;
     }
   }

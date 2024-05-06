@@ -3,12 +3,10 @@ body {
   background-color: #000000;
   background-image: url('../src/assets/image-background.png');
 
-  /* Full height */
   height: 100vh;
-  /* Center and scale the image nicely */
   background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 html {
