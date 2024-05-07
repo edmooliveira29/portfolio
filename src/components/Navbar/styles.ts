@@ -7,14 +7,13 @@ export const NavbarMenu = styled(Navbar)`
   position: sticky;
   top: 0;
   background-color: ${theme.colors.background};
-  opacity: 90%;
   height: 60px;
   padding: 5px;
 `
 
 export const NavBarContainer = styled(Navbar)`
   height: 60px;
-  background-color: transparent;
+  background-color: ${theme.colors.background};
   align-items: center;  
   max-width: 100vw;
   position: sticky;

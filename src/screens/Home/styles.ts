@@ -19,7 +19,7 @@ export const ImageHome = styled(Image)`
   @media (max-width: 400px) {
     width: 250px;
     height: 250px;
-    margin: 2rem;
+    margin: 3rem;
   }
 `;
 
@@ -45,14 +45,14 @@ export const Text = styled.div`
   h4 {
     color: #FFF;
     text-align: center;
-    font-family: "Quicksand", sans-serif;
+    font-family: ${theme.typography.titles.subTitles};
     font-style: normal;
     font-size: ${theme.typography.sizes.home.subtitle};
     font-weight: 700;
     line-height: normal;
   }
   @media (max-width: 400px) {
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
     h1 {
       font-size: ${theme.typography.sizes.home.titleMobile};
     }

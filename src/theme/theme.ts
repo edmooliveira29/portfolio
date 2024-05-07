@@ -5,6 +5,7 @@ const theme = {
       fontFamily: 'Courier New, monospace',
       navBar: 'Oswald, sans-serif',
       titles: 'Oswald, sans-serif',
+      subTitles: 'Quicksand, sans-serif'
     },
     sizes:{
       navBarDesktop: '1.5rem',
@@ -12,19 +13,19 @@ const theme = {
       home:{
         title: '5rem',
         subtitle: '2rem',
-        titleMobile: '3rem',
-        subtitleMobile: '1.5rem',
+        titleMobile: '2rem',
+        subtitleMobile: '1.2rem',
         textButton: '1.5rem',
       },
       about:{
-        textInfoDesktop: '1.2rem',
-        textInfoMobile: '1rem',
-        textTitleDesktop: '2rem',
-        textTitleMobile: '1rem',
+        textInfoDesktop: '1.6rem',
+        textInfoMobile: '0.9rem',
+        textTitleDesktop: '2.2rem',
+        textTitleMobile: '1.2rem',
         textSubtitleDesktop: '1.5rem',
         textSubtitleMobile: '1rem',
         textTechnologyDesktop: '1.0rem',
-        textTechnologyMobile: '0.6rem',
+        textTechnologyMobile: '1.0rem',
       },
       contact:{
         textSubtitle: '1rem',
@@ -35,7 +36,7 @@ const theme = {
   colors : {
     primary: '#81B49B',
     blackLight: '#BBBBBB',
-    background: '#101010',
+    background: '#000000',
     textPrimary: '#FFFFFF',
     iconTechnology: '#FFFFFF',
     textPrimaryLight: '#FFFFFF95',

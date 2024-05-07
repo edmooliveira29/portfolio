@@ -1,14 +1,10 @@
-import Box from '@/components/Box'
 import { Col, Container, Row } from 'react-bootstrap'
-import { TextTitle, SocialMedia, TextSubTitle, RowInfo, TextTecnology, IconeCol, BackgroundImage, TextAboutMe, ButtomMore, LinkButtom, ColForm } from './styles'
-import { FaAngular, FaCss3, FaGithub, FaHtml5, FaInstagram, FaLinkedinIn, FaNodeJs, FaReact, FaTelegram, FaWhatsapp, FaWordpress, FaYoutube } from "react-icons/fa";
-import { BiLogoGoogleCloud, BiLogoMongodb, BiLogoNetlify, BiLogoReact } from "react-icons/bi";
-import { SiCucumber, SiCypress, SiJest, SiMocha, SiSelenium } from "react-icons/si";
+import { SocialMedia, TextSubTitle, RowInfo, ButtomMore, LinkButtom, Maps, ColForm, TextTitle, IconeRow } from './styles'
+import { FaGithub, FaInstagram, FaLinkedinIn,  FaWhatsapp, } from "react-icons/fa";
+
 
 import { theme } from '@/theme/theme';
-import imageAboutMe from '@/assets/image-about-me.png'
 import { InputField } from '@/components/Inputs/Input';
-import { IconeRow } from '../About/styles';
 export const Contact = () => {
 
   return (
@@ -44,12 +40,11 @@ export const Contact = () => {
         </ColForm>
         <Col lg={6} md={6} sm={12} style={{ marginTop: '10rem' }}>
           <Row className='d-flex justify-content-center'>
-            <iframe
+            <Maps
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99155.40744164141!2d-44.02425775098209!3d-19.892854825282388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699f74c3e925d%3A0x85fdbc9464309c9e!2sGreater%20Belo%20Horizonte%20-%20Centro%2C%20Belo%20Horizonte%20-%20State%20of%20Minas%20Gerais%2C%2030110-009!5e0!3m2!1sen!2sbr!4v1715020806167!5m2!1sen!2sbr"
               width="300" height="500"
-              style={{ borderRadius: '30px', maxWidth: '80%' }}
               allowFullScreen loading="lazy" >
-            </iframe>
+            </Maps>
           </Row>
           <IconeRow>
             <TextSubTitle>ENCONTE-ME TAMBÉM, ATRAVÉS DOS LINKS:</TextSubTitle>

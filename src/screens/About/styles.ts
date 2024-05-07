@@ -91,28 +91,26 @@ export const BackgroundImage = styled(Image)`
   width: 55rem;
   height: 50rem;
   @media screen and (max-width: 400px) {
-    width: 28rem;
+    width: 23.5rem;
     height: 35rem;
-    margin: 0.2rem 0 0 0;
-    left: 1rem;
-    position: relative;
+    margin:0rem 0 0 0;
   }
 `;
 
 export const TextAboutMe = styled.span`
     color: #FFF;
     text-align: center;
-    font-family: "Quicksand", sans-serif;
+    font-family: ${theme.typography.titles.subTitles};
     font-style: normal;
     font-size: ${theme.typography.sizes.about.textInfoDesktop};
     font-weight: 700;
     line-height: normal;
-    margin: 0rem 10rem 5rem 10rem;
+    margin: 0rem 6rem 0rem 6rem;
     position: absolute;
     left: 48%;
     @media screen and (max-width: 400px) {
-      left: 0rem;
+      left: -1rem;
       font-size: ${theme.typography.sizes.about.textInfoMobile};
-      margin: 2rem 2rem;
+      margin: 0rem 3rem;
     }
 `

@@ -1,12 +1,13 @@
 body {
-  /* background-color: #0F343A; */
   background-color: #000000;
   background-image: url('../src/assets/image-background.png');
-
   height: 100vh;
   background-position: top;
   background-repeat: repeat;
   background-size: contain;
+  @media screen and (max-width: 400px) {
+    background-image: none;
+  }
 }
 
 html {
