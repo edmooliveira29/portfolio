@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import Image from 'next/image';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import { MdArrowForwardIos, MdOutlineArrowBackIosNew } from 'react-icons/md';
+import React, { useState } from "react"
+import Image from "next/image"
+import { MdArrowForwardIos, MdOutlineArrowBackIosNew } from "react-icons/md"
 
 type Props = {
   images: string[]
@@ -9,19 +8,19 @@ type Props = {
 
 const ImageCarousel: React.FC<Props> = ({ images }) => {
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? images.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
-  };
+    const isFirstSlide = currentIndex === 0
+    const newIndex = isFirstSlide ? images.length - 1 : currentIndex - 1
+    setCurrentIndex(newIndex)
+  }
 
   const nextSlide = () => {
-    const isLastSlide = currentIndex === images.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
+    const isLastSlide = currentIndex === images.length - 1
+    const newIndex = isLastSlide ? 0 : currentIndex + 1
+    setCurrentIndex(newIndex)
+  }
 
   return (
     <div className="relative w-full mx-auto">
@@ -35,13 +34,14 @@ const ImageCarousel: React.FC<Props> = ({ images }) => {
             const width = image.default.width
             const height = image.default.height
             return (
-              <div key={index} className="flex min-w-full justify-center">
+              <div key={index}
+                className="flex min-w-full justify-center">
                 <Image
                   src={image}
                   alt={`Image ${index + 1}`}
                   width={800}
                   height={400}
-                  className={`${width < height ? 'h-auto max-w-[50%]' : 'h-[300px] max-w-full'} object-cover`}
+                  className={`${width < height ? "h-auto max-w-[50%]" : "h-[300px] max-w-full"} object-cover`}
                 />
               </div>
             )
@@ -64,13 +64,13 @@ const ImageCarousel: React.FC<Props> = ({ images }) => {
         {images.map((_, index) => (
           <button
             key={index}
-            className={`w-3 h-3 mx-2 rounded-full ${currentIndex === index ? 'bg-gray-800' : 'bg-gray-300'}`}
+            className={`w-3 h-3 mx-2 rounded-full ${currentIndex === index ? "bg-gray-800" : "bg-gray-300"}`}
             onClick={() => setCurrentIndex(index)}
           />
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ImageCarousel;
+export default ImageCarousel

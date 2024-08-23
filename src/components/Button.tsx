@@ -1,13 +1,38 @@
-import React from 'react';
-import { CgWebsite } from 'react-icons/cg';
-import { DiGithub } from 'react-icons/di';
-import { FaGithub, FaLink } from 'react-icons/fa';
+import React from "react"
+import { BiLogoPlayStore } from "react-icons/bi"
+import { BsInstagram } from "react-icons/bs"
+import { DiGoogleDrive } from "react-icons/di"
+import { FaGithub, FaLink } from "react-icons/fa"
 
 type ButtonProps = {
   onClick?: () => void
   title: string
-  icon?: 'website' | 'github'
+  icon: "website" | "github" | "drive" | "instagram" | "playstore"
 }
+
+const selectIcon = (icon: "website" | "github" | "drive" | "instagram" | "playstore") => {
+  switch (icon) {
+    case "website":
+      return <FaLink className="ml-2"
+        size={20} />
+    case "github":
+      return <FaGithub className="ml-2"
+        size={20} />
+    case "drive":
+      return <DiGoogleDrive className="ml-2"
+        size={23} />
+    case "instagram":
+      return <BsInstagram className="ml-2"
+        size={20} />
+    case "playstore":
+      return <BiLogoPlayStore className="ml-2"
+        size={23} />
+    default:
+      return <FaLink className="ml-2"
+        size={20} />
+  }
+}
+
 export const Button = ({ onClick, title, icon }: ButtonProps) => {
   return (
     <button type="button"
@@ -35,11 +60,7 @@ export const Button = ({ onClick, title, icon }: ButtonProps) => {
       justify-center"
       onClick={onClick}>
       {title}
-      {icon && (icon === 'website' ? (
-        <FaLink className="ml-2" size={20} />
-      ) :
-        < FaGithub className="ml-2" size={20} />
-      )}
+      {selectIcon(icon)}
     </button>
-  );
-};
+  )
+}

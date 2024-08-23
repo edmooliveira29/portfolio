@@ -1,19 +1,22 @@
-import React from "react";
-import Link from "next/link";
-import Logo from "@/assets/logo.png";
-import Image from 'next/image';
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import React from "react"
+import Link from "next/link"
+import Logo from "@/assets/logo.png"
+import Image from "next/image"
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 
-export default function Footer({ border = false }: { border?: boolean }) {
+const Footer = ({ border = false }: { border?: boolean }) => {
   return (
     <footer>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div
-          className={`grid gap-10 py-8 sm:grid-cols-12 md:py-12 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
+          className={`grid gap-10 py-8 sm:grid-cols-12 md:py-12
+           ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
         >
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
             <div>
-              <Image src={Logo} alt="Logo" className="h-5 w-auto" />
+              <Image src={Logo}
+                alt="Logo"
+                className="h-5 w-auto" />
             </div>
             <div className="text-sm text-gray-600">
               &copy; edmooliveira.com.br - {new Date().getFullYear()}
@@ -39,7 +42,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   Graduação
                 </Link>
               </li>
-              
+
             </ul>
           </div>
 
@@ -143,7 +146,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="flex items-center justify-center text-white transition transition transition-opacity duration-300 hover:opacity-50"
                   href="https://www.linkedin.com/in/edmo-de-oliveira-349194164/"
                   aria-label="Twitter"
-                  target='_blank'
+                  target="_blank"
                 >
                   <FaLinkedin className="h-8 w-8 fill-current" />
                 </Link>
@@ -153,10 +156,10 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="flex items-center justify-center text-white transition transition transition-opacity duration-300 hover:opacity-50"
                   href="https://wa.me/5531996339531"
                   aria-label="Medium"
-                  target='_blank'
+                  target="_blank"
 
                 >
-                 <FaWhatsapp className="h-8 w-8 fill-current" />
+                  <FaWhatsapp className="h-8 w-8 fill-current" />
                 </Link>
               </li>
               <li>
@@ -164,7 +167,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="flex items-center justify-center text-white transition transition-opacity duration-300 hover:opacity-50"
                   href="https://github.com/edmooliveira29"
                   aria-label="Github"
-                  target='_blank'
+                  target="_blank"
                 >
                   <FaGithub className="h-8 w-8 fill-current" />
                 </Link>
@@ -174,5 +177,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
         </div>
       </div>
     </footer>
-  );
+  )
 }
+
+export default Footer

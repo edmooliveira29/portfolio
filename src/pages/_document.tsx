@@ -1,16 +1,20 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import React from "react"
+import { Html, Head, Main, NextScript } from "next/document"
 
-export default function Document() {
+const Document = () => {
   return (
     <Html lang="en">
       <Head >
         <title>Portfolio - Edmo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon"
+          href="/favicon.ico" />
       </Head>
       <body>
         <Main />
         <NextScript />
-        </body>
+      </body>
     </Html>
-  );
+  )
 }
+
+export default Document
