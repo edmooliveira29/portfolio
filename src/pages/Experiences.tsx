@@ -115,6 +115,46 @@ const Experiences = () => {
               <div className="ml-6 w-1/3">
                 <h4 className="font-bold text-white">JAN 2016 - DEZEMBRO 2022</h4>
                 <h4 className="text-[12px] text-white">7 anos</h4>
+                <h4 className="font-bold text-white">Técnico em Informática</h4>
+                <span className="mt-1 block text-sm font-semibold text-white">Barão de Cocais - MG</span>
+                <span className="mt-1 block text-sm text-white">Autônomo</span>
+              </div>
+              <div className="ml-2 w-2/3">
+                <p className="text-sm text-gray-500">
+                  Instalação de sistemas operacionais, instalação de softwares, montagem de computadores, reparo de hardware,
+                  manutenção em impressoras, dimensionamento rede e cabeamento e configuração
+                  de rede de internet</p>
+              </div>
+            </div>
+          </div>
+          <hr></hr>
+          <div className=" w-full">
+            <div className="flex">
+              <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full bg-white" />
+              <div className="ml-6 w-1/3">
+                <h4 className="font-bold text-white">FEVEREIRO 2018 - JULHO 2018</h4>
+                <h4 className="font-bold text-white">Estagiário</h4>
+                <h4 className="text-[12px] text-white">6 meses</h4>
+                <span className="mt-1 block text-sm font-semibold text-white">Barão de Cocais - MG</span>
+                <span className="mt-1 block text-sm text-white">CREA - MG</span>
+              </div>
+              <div className="ml-2 w-2/3">
+                <p className="text-sm text-gray-500">
+                  Atuei como estagiário no Escritório do Crea na cidade de Barão de Cocais - MG.
+                  Facilitando a conexão entre Técnicos e Engenheiros da região para realizar seus procedimentos.
+                  No estágio aprimorei meus conhecimentos em relações entre o CREA e os profissionais,
+                  lidando com o público, sendo responsável por auxiliar ao máximo em suas necessidades.</p>
+              </div>
+            </div>
+          
+          </div>
+          <hr></hr>
+          <div className=" w-full">
+            <div className="flex">
+              <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full bg-white" />
+              <div className="ml-6 w-1/3">
+                <h4 className="font-bold text-white">JAN 2016 - AGOSTO 2016</h4>
+                <h4 className="text-[12px] text-white">7 anos</h4>
                 <h4 className="font-bold text-white">Auxiliar administrativo</h4>
                 <span className="mt-1 block text-sm font-semibold text-white">Barão de Cocais - MG</span>
                 <span className="mt-1 block text-sm text-white">PMBC - UFV - CBCN</span>
@@ -138,47 +178,6 @@ const Experiences = () => {
                   target="_blank"
                   rel="noreferrer">Clique aqui</a>
                 <span className="text-sm text-gray-500"> para saber mais</span>
-              </div>
-            </div>
-          </div>
-          <hr></hr>
-          <div className=" w-full">
-            <div className="flex">
-              <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full bg-white" />
-              <div className="ml-6 w-1/3">
-                <h4 className="font-bold text-white">JAN 2016 - DEZEMBRO 2022</h4>
-                <h4 className="text-[12px] text-white">7 anos</h4>
-                <h4 className="font-bold text-white">Técnico em Informática</h4>
-                <span className="mt-1 block text-sm font-semibold text-white">Barão de Cocais - MG</span>
-                <span className="mt-1 block text-sm text-white">Autônomo</span>
-              </div>
-              <div className="ml-2 w-2/3">
-                <p className="text-sm text-gray-500">
-                  Instalação de sistemas operacionais, instalação de softwares, montagem de computadores, reparo de hardware,
-                  manutenção em impressoras, dimensionamento rede e cabeamento e configuração
-                  de rede de internet</p>
-              </div>
-            </div>
-          </div>
-
-          <hr></hr>
-
-          <div className=" w-full">
-            <div className="flex">
-              <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full bg-white" />
-              <div className="ml-6 w-1/3">
-                <h4 className="font-bold text-white">FEVEREIRO 2018 - JULHO 2018</h4>
-                <h4 className="font-bold text-white">Estagiário</h4>
-                <h4 className="text-[12px] text-white">6 meses</h4>
-                <span className="mt-1 block text-sm font-semibold text-white">Barão de Cocais - MG</span>
-                <span className="mt-1 block text-sm text-white">CREA - MG</span>
-              </div>
-              <div className="ml-2 w-2/3">
-                <p className="text-sm text-gray-500">
-                  Atuei como estagiário no Escritório do Crea na cidade de Barão de Cocais - MG.
-                  Facilitando a conexão entre Técnicos e Engenheiros da região para realizar seus procedimentos.
-                  No estágio aprimorei meus conhecimentos em relações entre o CREA e os profissionais,
-                  lidando com o público, sendo responsável por auxiliar ao máximo em suas necessidades.</p>
               </div>
             </div>
           </div>
