@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <section className="px-5 py-10 lg:py-20 lg:px-0 text-white items-center">
       <div className="mb-30">
-        <h1 className="text-3xl">Olá, eu sou&nbsp;</h1>
-        <span className="text-3xl font-bold text-gray-300"> EDMO DE OLIVEIRA</span>
+        <h2 className="text-3xl">Olá, eu sou&nbsp;</h2>
+        <h1 className="text-3xl font-bold text-gray-300"> EDMO DE OLIVEIRA</h1>
         <h1 className="text-xl">Full Stack Developer </h1>
 
       </div>
       <i>
-        Desenvolvedor Web front end, mobile, experiência em gerenciamento de equipe,
+        Desenvolvedor Web, mobile, evoluindo para gerenciamento de projetos com a 
         utilizando da Metodologia Ágil com o método Scrum.&nbsp;
       </i>
       <br></br>
