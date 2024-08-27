@@ -53,26 +53,6 @@ const Knowledge = () => {
               style={{ width: "85%" }}>85%</div>
             </div>
 
-            <span className="block text-md font-bold">AngularJS </span>
-            <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
-              role="progressbar"
-              aria-valuenow={80}
-              aria-valuemin={0}
-              aria-valuemax={100}>
-              <div className="flex 
-                flex-col 
-                justify-center 
-                rounded-full 
-                overflow-hidden 
-                bg-black/50 
-                text-xs 
-                text-black 
-                text-center
-                whitespace-nowrap 
-                transition duration-500"
-              style={{ width: "80%" }}>80%</div>
-            </div>
-
             <span className="block text-md font-bold">React</span>
             <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
               role="progressbar"
@@ -90,7 +70,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "95%" }}>95%</div>
+              style={{ width: "85%" }}>85%</div>
             </div>
 
             <span className="block text-md font-bold">Tailwind</span>
@@ -110,7 +90,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "90%" }}>90%</div>
+              style={{ width: "85%" }}>85%</div>
             </div>
             <span className="block text-md font-bold">NextJs</span>
             <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
@@ -129,7 +109,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "90%" }}>90%</div>
+              style={{ width: "85%" }}>85%</div>
             </div>
             <span className="block text-md font-bold">Styled Components</span>
             <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
@@ -149,6 +129,25 @@ const Knowledge = () => {
                 whitespace-nowrap 
                 transition duration-500"
               style={{ width: "85%" }}>85%</div>
+            </div>
+            <span className="block text-md font-bold">AngularJS </span>
+            <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
+              role="progressbar"
+              aria-valuenow={80}
+              aria-valuemin={0}
+              aria-valuemax={100}>
+              <div className="flex 
+                flex-col 
+                justify-center 
+                rounded-full 
+                overflow-hidden 
+                bg-black/50 
+                text-xs 
+                text-black 
+                text-center
+                whitespace-nowrap 
+                transition duration-500"
+              style={{ width: "70%" }}>70%</div>
             </div>
           </div>
           <div className="mt-5 bg-gray-600 rounded-lg p-5 hover:scale-105 duration-500">
@@ -170,7 +169,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "85%" }}>85%</div>
+              style={{ width: "80%" }}>80%</div>
             </div>
             <span className="block text-md font-bold">Mocha</span>
 
@@ -190,7 +189,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "85%" }}>85%</div>
+              style={{ width: "80%" }}>80%</div>
             </div>
 
             <span className="block text-md font-bold">Cypress</span>
@@ -210,7 +209,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "85%" }}>85%</div>
+              style={{ width: "80%" }}>80%</div>
             </div>
 
             <span className="block text-md font-bold">Cucumber</span>
@@ -231,7 +230,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "80%" }}>80%</div>
+              style={{ width: "75%" }}>75%</div>
             </div>
 
             <span className="block text-md font-bold">Selenium</span>
@@ -251,7 +250,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "80%" }}>80%</div>
+              style={{ width: "75%" }}>75%</div>
             </div>
             <span className="block text-md font-bold">Karma</span>
             <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
@@ -270,7 +269,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "65%" }}>65%</div>
+              style={{ width: "60%" }}>60%</div>
             </div>
 
           </div>
@@ -294,7 +293,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "90%" }}>90%</div>
+              style={{ width: "80%" }}>80%</div>
             </div>
           </div>
         </div>
@@ -445,7 +444,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "70%" }}>70%</div>
+              style={{ width: "65%" }}>65%</div>
             </div>
           </div>
           <div className="mt-5 lg:my-7 bg-gray-600 rounded-lg p-5 hover:scale-105 duration-500">
