@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex lg:flex-1">
           <a href="#home"
             className="-m-1.5 p-1.5">
-            <span className="sr-only">Portfolio | Edmo</span>
+            <span className="sr-only">Portfólio | Edmo</span>
             <Image alt=""
               src={logoComplete}
               className="h-8 w-auto" />

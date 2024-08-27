@@ -5,7 +5,7 @@ const Document = () => {
   return (
     <Html lang="en">
       <Head >
-        <title>Portfolio - Edmo</title>
+        <title>Portfólio - Edmo</title>
         <link rel="icon"
           href="/favicon.ico" />
       </Head>

@@ -66,7 +66,7 @@ const Projects = () => {
             >
               <div className="flex h-full items-center justify-center">
                 <div className="text-white opacity-100 group-hover:opacity-0 transition-opacity duration-500">
-                  <h2 className="mb-4 text-2xl font-semibold">PORTFOLIO - EDMO </h2>
+                  <h2 className="mb-4 text-2xl font-semibold">PORTFÓLIO - EDMO </h2>
                   <div className="flex items-center justify-around">
                     <FaReact className="text-3xl" />
                     <RiTailwindCssFill className="text-3xl" />
@@ -74,7 +74,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="w-full right-0 p-2 flex absolute bottom-0 items-center justify-between">
-                  <span className="text-md font-bold">ESTE PORTFOLIO</span>
+                  <span className="text-md font-bold">ESTE PORTFÓLIO</span>
                   <Button title={"VER MAIS"}
                     icon="website"
                     onClick={() => setShowDetails({ ...showDetails, portfolio: true })} />
