@@ -27,7 +27,7 @@ const Home = () => {
         Desenvolvedor FrontEnd Júnior no qual me encontro atualmente.
         <br></br>
         <br></br>
-        Desde 2020 venho me capacitando na área de Deenvolvimento Web, somando cada dia mais 
+        Desde 2020 venho me capacitando na área de Desenvolvimento Web, somando cada dia mais 
         e mais para a atual empresa que trabalho e os freelancers
         que desenvolvo paralelamente.
         <br></br>
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="hover:cursor-pointer hover:transform hover:scale-105 duration-500">
           <FaLinkedin className="text-[#4b5563] inline-block ml-1 lg:ml-10"
-            size={25} /> <a href="https://www.linkedin.com/in/edmo-de-oliveira-349194164"
+            size={25} /> <a href="https://www.linkedin.com/in/edmo-oliveira-developer/"
             target="_blank"
             className="text-sm ml-1"
             rel="noreferrer">Linkedin</a>

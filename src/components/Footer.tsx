@@ -144,7 +144,7 @@ const Footer = ({ border = false }: { border?: boolean }) => {
               <li>
                 <Link
                   className="flex items-center justify-center text-white transition transition transition-opacity duration-300 hover:opacity-50"
-                  href="https://www.linkedin.com/in/edmo-de-oliveira-349194164/"
+                  href="https://www.linkedin.com/in/edmo-oliveira-developer/"
                   aria-label="Twitter"
                   target="_blank"
                 >

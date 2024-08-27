@@ -28,7 +28,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 text-white font-semibold text-lg">7</h1>
+              <h1 className="mx-3 text-white font-semibold text-lg">11</h1>
             </div>
             <div className="
               order-1 
@@ -62,7 +62,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between items-center w-full right-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 text-white font-semibold text-lg">8</h1>
+              <h1 className="mx-3 text-white font-semibold text-lg">10</h1>
             </div>
             <div className="order-1 
             bg-gray-400 
@@ -100,7 +100,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 text-white font-semibold text-lg">8</h1>
+              <h1 className="mx-3 text-white font-semibold text-lg">9</h1>
             </div>
             <div className="order-1 
             bg-gray-400 
@@ -138,7 +138,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between items-center w-full right-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 text-white font-semibold text-lg">7</h1>
+              <h1 className="mx-3 text-white font-semibold text-lg">8</h1>
             </div>
             <div className="order-1 
             bg-gray-200 
@@ -176,7 +176,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 md:block md:w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 font-semibold text-lg text-white">6</h1>
+              <h1 className="mx-3 font-semibold text-lg text-white">7</h1>
             </div>
             <div className="order-1 
             bg-gray-400 
@@ -228,7 +228,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between items-center w-full right-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 text-white font-semibold text-lg">5</h1>
+              <h1 className="mx-3 text-white font-semibold text-lg">6</h1>
             </div>
             <div className="order-1 
             bg-gray-200 
@@ -266,7 +266,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 text-white font-semibold text-lg">4</h1>
+              <h1 className="mx-3 text-white font-semibold text-lg">5</h1>
             </div>
             <div className="order-1 
             bg-gray-400 
@@ -304,7 +304,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between items-center w-full right-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 text-white font-semibold text-lg">3</h1>
+              <h1 className="mx-3 text-white font-semibold text-lg">4</h1>
             </div>
             <div className="order-1 
             bg-gray-200 
@@ -342,7 +342,7 @@ const AcademicFormation = () => {
           <div className="mb-8 lg:flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
-              <h1 className="mx-3 text-white font-semibold text-lg">2</h1>
+              <h1 className="mx-3 text-white font-semibold text-lg">3</h1>
             </div>
             <div className="order-1 
             bg-gray-400 
@@ -456,7 +456,7 @@ const AcademicFormation = () => {
                   target="_blank"
                   rel="noreferrer"> Glauco Ferreira Gazel Yared</a> e
                 <a className="font-bold text-gray-800 text-opacity-100"
-                  href="https://www.linkedin.com/in/gilda-aparecida-de-assis-507495/"
+                  href="Z"
                   target="_blank"
                   rel="noreferrer"> Gilda Aparecida de Assis</a>
                 <br></br>

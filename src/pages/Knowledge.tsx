@@ -344,25 +344,6 @@ const Knowledge = () => {
           </div>
           <div className="mt-5 lg:my-7 bg-gray-600 rounded-lg p-5 hover:scale-105 duration-500">
             <span className="text-xl font-bold">NO CODE</span>
-            <span className="block text-md font-bold">Wordpress</span>
-            <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
-              role="progressbar"
-              aria-valuenow={90}
-              aria-valuemin={0}
-              aria-valuemax={100}>
-              <div className="flex 
-                flex-col 
-                justify-center 
-                rounded-full 
-                overflow-hidden 
-                bg-black/50 
-                text-xs 
-                text-black 
-                text-center
-                whitespace-nowrap 
-                transition duration-500"
-              style={{ width: "75%" }}>75%</div>
-            </div>
 
             <span className="block text-md font-bold">Nuvemshop</span>
             <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
@@ -383,13 +364,10 @@ const Knowledge = () => {
                 transition duration-500"
               style={{ width: "90%" }}>90%</div>
             </div>
-          </div>
-          <div className="mt-5 lg:my-7 bg-gray-600 rounded-lg p-5 hover:scale-105 duration-500">
-            <span className="text-xl font-bold">INFRAESTRUTURA</span>
-            <span className="block text-md font-bold">Google Cloud Compute Engine</span>
+            <span className="block text-md font-bold">Wordpress</span>
             <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
               role="progressbar"
-              aria-valuenow={85}
+              aria-valuenow={90}
               aria-valuemin={0}
               aria-valuemax={100}>
               <div className="flex 
@@ -403,8 +381,12 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "85%" }}>85%</div>
+              style={{ width: "75%" }}>75%</div>
             </div>
+
+          </div>
+          <div className="mt-5 lg:my-7 bg-gray-600 rounded-lg p-5 hover:scale-105 duration-500">
+            <span className="text-xl font-bold">INFRAESTRUTURA</span>
 
             <span className="block text-md font-bold">Netlify</span>
             <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
@@ -425,6 +407,27 @@ const Knowledge = () => {
                 transition duration-500"
               style={{ width: "90%" }}>90%</div>
             </div>
+
+            <span className="block text-md font-bold">Google Cloud Compute Engine</span>
+            <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
+              role="progressbar"
+              aria-valuenow={85}
+              aria-valuemin={0}
+              aria-valuemax={100}>
+              <div className="flex 
+                flex-col 
+                justify-center 
+                rounded-full 
+                overflow-hidden 
+                bg-black/50 
+                text-xs 
+                text-black 
+                text-center
+                whitespace-nowrap 
+                transition duration-500"
+              style={{ width: "75%" }}>75%</div>
+            </div>
+
             <span className="block text-md font-bold">Github CI e GitLab CI</span>
             <div className="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden mb-1"
               role="progressbar"
@@ -442,7 +445,7 @@ const Knowledge = () => {
                 text-center
                 whitespace-nowrap 
                 transition duration-500"
-              style={{ width: "75%" }}>75%</div>
+              style={{ width: "70%" }}>70%</div>
             </div>
           </div>
           <div className="mt-5 lg:my-7 bg-gray-600 rounded-lg p-5 hover:scale-105 duration-500">

@@ -4,7 +4,7 @@ import nolascoModdas from "@/assets/projects/nolascomodas.png"
 import Image from "next/image"
 import { FaAngular, FaGitlab, FaReact, FaSass } from "react-icons/fa"
 import { DiGoogleCloudPlatform, DiJavascript, DiMongodb } from "react-icons/di"
-import { SiCsharp, SiCypress, SiEslint, SiJasmine, SiJest, SiNetlify, SiOpengl, SiPrettier, SiStyledcomponents } from "react-icons/si"
+import { SiCypress, SiEslint, SiJasmine, SiJest, SiNetlify, SiOpengl, SiPrettier, SiStyledcomponents } from "react-icons/si"
 import nuvemShopIcon from "@/assets/nuvemshop_icon.png"
 import yattoLogo from "@/assets/projects/yatto-logo.png"
 import portfolio from "@/assets/projects/portfolio-1.png"
@@ -24,8 +24,8 @@ import DetailsCachacaGestor from "./Knowledge/cachaca-gestor"
 import DetailsFarol from "./Knowledge/farol"
 import DetailsYatto from "./Knowledge/yatto"
 import DetailsPortfolio from "./Knowledge/portfolio"
-import DetailsArticle from './Knowledge/article'
-import { CgCPlusPlus } from 'react-icons/cg'
+import DetailsArticle from "./Knowledge/article"
+import { CgCPlusPlus } from "react-icons/cg"
 
 const Projects = () => {
   // eslint-disable-next-line 

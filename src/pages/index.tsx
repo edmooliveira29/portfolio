@@ -11,7 +11,7 @@ import Projects from "./Projects"
 
 const inter = Inter({ subsets: ["latin"] })
 
-const App = () =>{
+const App = () => {
   return (
     <><main
       className={`grow ${inter.className}`}
@@ -19,34 +19,22 @@ const App = () =>{
       <Header />
       <div className="bg-gray-900 lg:px-20"
         id="home"
-        style={{ scrollMarginTop: "80px" }}>
-        <Home />
-      </div>
+        style={{ scrollMarginTop: "80px" }}><Home /></div>
       <div className="bg-black lg:px-20 mt-5 block"
         id="conhecimentos"
-        style={{ scrollMarginTop: "72px" }}>
-        <Knowledge />
-      </div>
+        style={{ scrollMarginTop: "72px" }}><Knowledge /></div>
       <div className="bg-gray-900 lg:px-20 mt-5 block"
         id="projetos"
-        style={{ scrollMarginTop: "72px" }}>
-        <Projects />
-      </div>
+        style={{ scrollMarginTop: "72px" }}><Projects /> </div>
       <div className="bg-black lg:px-20 mt-5 block"
         id="experiencias"
-        style={{ scrollMarginTop: "72px" }}>
-        <Experiences />
-      </div>
-      <div className="bg-gray-900 lg:px-20 mt-5 block"
+        style={{ scrollMarginTop: "72px" }}>   <Experiences />
+      </div><div className="bg-gray-900 lg:px-20 mt-5 block"
         id="formacao-academica"
-        style={{ scrollMarginTop: "72px" }}>
-        <AcademicFormation />
-      </div>
+        style={{ scrollMarginTop: "72px" }}><AcademicFormation /></div>
       <div className="bg-black lg:px-20 mt-5"
         id="contato"
-        style={{ scrollMarginTop: "72px" }}>
-        <Contact />
-      </div>
+        style={{ scrollMarginTop: "72px" }}><Contact /> </div>
       <Footer />
     </main></>
   )

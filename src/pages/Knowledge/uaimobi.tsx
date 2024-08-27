@@ -87,7 +87,7 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
                   <h1 className=" text-3xl font-bold hidden lg:flex justify-between">
                     UAIMOBI
                     <CgClose size={25}
-                    className="cursor-pointer"
+                      className="cursor-pointer"
                       onClick={() => { setOpen(false); setShowDetails({ ...showDetails, uaimobi: false }) }} />
                   </h1>                  <p>
                     Desenvolvi o site da UaiMobi, uma empresa de mobilidade urbana, utilizando uma stack moderna de tecnologias.

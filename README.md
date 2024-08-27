@@ -55,4 +55,4 @@ This project is licensed under the MIT License.
 **EDMO DE OLIVEIRA LEITE**
 
 -   Github: [edmooliveira29](https://github.com/edmooliveira29)
--   LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/edmo-de-oliveira-349194164/)
+-   LinkedIn: [Edmo de Oliveira Leite](https://www.linkedin.com/in/edmo-oliveira-developer/)
