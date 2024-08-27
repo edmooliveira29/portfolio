@@ -4,13 +4,14 @@ import nolascoModdas from "@/assets/projects/nolascomodas.png"
 import Image from "next/image"
 import { FaAngular, FaGitlab, FaReact, FaSass } from "react-icons/fa"
 import { DiGoogleCloudPlatform, DiJavascript, DiMongodb } from "react-icons/di"
-import { SiCypress, SiEslint, SiJasmine, SiJest, SiNetlify, SiPrettier, SiStyledcomponents } from "react-icons/si"
+import { SiCsharp, SiCypress, SiEslint, SiJasmine, SiJest, SiNetlify, SiOpengl, SiPrettier, SiStyledcomponents } from "react-icons/si"
 import nuvemShopIcon from "@/assets/nuvemshop_icon.png"
 import yattoLogo from "@/assets/projects/yatto-logo.png"
 import portfolio from "@/assets/projects/portfolio-1.png"
 import cachacaGestor from "@/assets/projects/cachaca-gestor-3.png"
 import tccPosGraduacao from "@/assets/projects/tcc-pos-graduacao.png"
 import farol from "@/assets/projects/farol.png"
+import article from "@/assets/projects/article.png"
 import { Button } from "@/components/Button"
 import { TbBrandReactNative } from "react-icons/tb"
 import { BsBootstrap } from "react-icons/bs"
@@ -23,6 +24,8 @@ import DetailsCachacaGestor from "./Knowledge/cachaca-gestor"
 import DetailsFarol from "./Knowledge/farol"
 import DetailsYatto from "./Knowledge/yatto"
 import DetailsPortfolio from "./Knowledge/portfolio"
+import DetailsArticle from './Knowledge/article'
+import { CgCPlusPlus } from 'react-icons/cg'
 
 const Projects = () => {
   // eslint-disable-next-line 
@@ -34,7 +37,8 @@ const Projects = () => {
     cachacaGestor: false,
     tccPosGraduacao: false,
     farol: false,
-    portfolio: false
+    portfolio: false,
+    article: false
   })
 
 
@@ -326,7 +330,41 @@ const Projects = () => {
           </div>
         </div>
 
-
+        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+          <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
+            style={{ backgroundImage: `url(${article.src})` }}>
+            <div className="
+              absolute 
+              bottom-0 
+              left-0 
+              right-0
+              top-0
+              h-full 
+              w-full 
+              rounded-lg
+              bg-black/70
+              group-hover:bg-black/20
+              transition duration-500">
+              <div className="flex h-full items-center justify-center">
+                <div className="text-white opacity-100 group-hover:opacity-0 transition-opacity duration-500">
+                  <h2 className="mb-4 text-2xl font-semibold">ARTIGO PUBLICADO  </h2>
+                  <div className="flex items-center justify-around">
+                    <CgCPlusPlus className="text-3xl mx-3" />
+                    <SiOpengl className="text-3xl mx-3" />
+                  </div>
+                </div>
+                <div className="w-full right-0 p-2 flex absolute bottom-0 items-center justify-between">
+                  <span className="text-md font-bold">DEZEMBRO 2021</span>
+                  <Button title={"VER MAIS"}
+                    icon="website"
+                    onClick={() => setShowDetails({ ...showDetails, article: true })} />
+                  {showDetails.article && <DetailsArticle setShowDetails={setShowDetails}
+                    showDetails={{ article: true }} />}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </section>

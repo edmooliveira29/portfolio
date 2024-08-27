@@ -74,6 +74,7 @@ const DetailsCachacaGestor = ({ setShowDetails, showDetails }: Props) => {
                 <h1 className="text-2xl font-bold flex lg:hidden justify-between p-4 ">
                   CACHAÇA GESTOR
                   <CgClose size={25}
+                    className="cursor-pointer"
                     onClick={() => { setOpen(false); setShowDetails({ ...showDetails, cachacaGestor: false }) }} />
                 </h1>
                 <div className="flex w-full lg:w-1/2">
