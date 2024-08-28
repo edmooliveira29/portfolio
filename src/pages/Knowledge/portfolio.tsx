@@ -46,11 +46,9 @@ const DetailsPortfolio = ({ setShowDetails, showDetails }: Props) => {
           <DialogPanel
             transition
             className="
-              overflow-y-auto 
               lg:w-[90%]
               relative 
               transform 
-              overflow-hidden 
               rounded-lg 
               bg-gray-900 
               text-left 
@@ -116,9 +114,9 @@ const DetailsPortfolio = ({ setShowDetails, showDetails }: Props) => {
                   <h3 className="text-xl font-bold">Principais Tecnologias e Ferramentas Utilizadas:</h3>
                   <ul>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaReact size={28}
-                          className="hidden lg:flex my-3" /><strong>&nbsp;React:&nbsp;</strong>
+                          className="flex my-3" /><strong>&nbsp;React:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a criação de componentes reutilizáveis e para gerenciar o
@@ -126,9 +124,9 @@ const DetailsPortfolio = ({ setShowDetails, showDetails }: Props) => {
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <RiNextjsLine size={28}
-                          className="hidden lg:flex my-3" /><strong>&nbsp;Next.js:&nbsp;</strong>
+                          className="flex my-3" /><strong>&nbsp;Next.js:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a construção do front-end da aplicação, permitindo a renderização
@@ -137,18 +135,18 @@ const DetailsPortfolio = ({ setShowDetails, showDetails }: Props) => {
                     </li>
 
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <RiTailwindCssFill size={28}
-                          className="hidden lg:flex my-3" /><strong>&nbsp;Tailwind:&nbsp;</strong>
+                          className="flex my-3" /><strong>&nbsp;Tailwind:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a estilização do site, garantindo uma interface responsiva e visualmente atraente.
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiNetlify size={28}
-                          className="hidden lg:flex my-3" /><strong>&nbsp;Netlify:&nbsp;</strong>
+                          className="flex my-3" /><strong>&nbsp;Netlify:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para o deploy do site, permitindo que o site seja acessível pelo dominio próprio.
@@ -163,7 +161,7 @@ const DetailsPortfolio = ({ setShowDetails, showDetails }: Props) => {
                 </div>
               </div>
             </div>
-            <div className="flex bg-gray-900 px-4 py-3 justify-center">
+            <div className="grid lg:flex bg-gray-900 px-4 py-3 justify-center">
               <Button onClick={() => window.open("https://github.com/edmooliveira29/portfolio", "_blank")}
                 title="ABRIR REPOSITÓRIO"
                 icon="github" />

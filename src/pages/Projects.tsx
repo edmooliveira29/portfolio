@@ -48,7 +48,7 @@ const Projects = () => {
         PROJETOS
       </h1>
       <div className="lg:flex items-center my-5">
-        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+        <div className="w-full lg:w-1/3 h-full p-5 lg:hover:scale-105 duration-500">
           <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
             style={{ backgroundImage: `url(${portfolio.src})` }}>
             <div className="
@@ -86,7 +86,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+        <div className="w-full lg:w-1/3 h-full p-5 lg:hover:scale-105 duration-500">
           <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
             style={{ backgroundImage: `url(${nolascoModdas.src})` }}>
             <div className="
@@ -122,7 +122,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+        <div className="w-full lg:w-1/3 h-full p-5 lg:hover:scale-105 duration-500">
           <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
             style={{ backgroundImage: `url(${cachacaGestor.src})` }}>
             <div className="
@@ -171,7 +171,7 @@ const Projects = () => {
 
       <div className="lg:flex items-center my-5">
 
-        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+        <div className="w-full lg:w-1/3 h-full p-5 lg:hover:scale-105 duration-500">
           <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
             style={{ backgroundImage: `url(${tccPosGraduacao.src})` }}>
             <div className="
@@ -213,7 +213,7 @@ const Projects = () => {
         </div>
 
 
-        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+        <div className="w-full lg:w-1/3 h-full p-5 lg:hover:scale-105 duration-500">
           <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
             style={{ backgroundImage: `url(${farol.src})` }}>
             <div className="
@@ -253,7 +253,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+        <div className="w-full lg:w-1/3 h-full p-5 lg:hover:scale-105 duration-500">
           <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
             style={{ backgroundImage: `url(${yattoLogo.src})` }}>
             <div className="
@@ -292,7 +292,7 @@ const Projects = () => {
       </div>
 
       <div className="lg:flex items-center my-5 justify-center">
-        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+        <div className="w-full lg:w-1/3 h-full p-5 lg:hover:scale-105 duration-500">
           <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
             style={{ backgroundImage: `url(${uaimobi.src})` }}>
             <div className="
@@ -330,7 +330,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/3 h-full p-5 hover:scale-105 duration-500">
+        <div className="w-full lg:w-1/3 h-full p-5 lg:hover:scale-105 duration-500">
           <div className="relative rounded-lg bg-cover p-12 text-center h-[250px] group"
             style={{ backgroundImage: `url(${article.src})` }}>
             <div className="

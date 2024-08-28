@@ -51,11 +51,10 @@ const DetailsTCCPosGraduacao = ({ setShowDetails, showDetails }: Props) => {
         <div className="lg:flex lg:justify-center m-4 text-center">
           <DialogPanel
             transition
-            className="overflow-y-auto 
+            className="
               lg:w-[90%]
               relative 
               transform 
-              overflow-hidden 
               rounded-lg 
               bg-gray-900 
               text-left 
@@ -89,6 +88,7 @@ const DetailsTCCPosGraduacao = ({ setShowDetails, showDetails }: Props) => {
                 <div className="w-full lg:w-1/2 p-2 text-[12px] ">
                   <h1 className="text-3xl font-bold hidden lg:flex justify-between py-4">SISTEMA GERENCIADOR
                     <CgClose size={25}
+                      className="cursor-pointer"
                       onClick={() => { setOpen(false); setShowDetails({ ...showDetails, tccPosGraduacao: false }) }} />
 
                   </h1>
@@ -116,9 +116,9 @@ const DetailsTCCPosGraduacao = ({ setShowDetails, showDetails }: Props) => {
                   <h3 className="text-xl font-bold">Principais Tecnologias e Ferramentas Utilizadas:</h3>
                   <ul>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaReact size={28}
-                          className="hidden lg:flex my-1" /><strong>&nbsp;React:&nbsp;</strong>
+                          className="flex my-1" /><strong>&nbsp;React:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a criação de componentes reutilizáveis e para gerenciar o
@@ -126,9 +126,9 @@ const DetailsTCCPosGraduacao = ({ setShowDetails, showDetails }: Props) => {
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <BsBootstrap size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;Bootstrap:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;Bootstrap:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Responsável pelo layout responsivo e pelo estilo geral do site,
@@ -136,54 +136,54 @@ const DetailsTCCPosGraduacao = ({ setShowDetails, showDetails }: Props) => {
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaSass size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;Sass:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;Sass:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Responsável pelo uso de CSS para o desenvolvimento do site.
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiCypress size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;Cypress:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;Cypress:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Utilizado para realizar os testes automatizados do sistema.
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaNodeJs size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;NodeJs:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;NodeJs:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a execução de backend e a criação da API.
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <DiMongodb size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;MongoDB:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;MongoDB:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a criação do banco de dados.
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiJest size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;Jest:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;Jest:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para os testes unitários do backend.
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <DiGoogleCloudPlatform size={30}
-                          className="hidden lg:flex my-2" /> <strong>&nbsp; Compute Engine:&nbsp;</strong>
+                          className="flex my-2" /> <strong>&nbsp; Compute Engine:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Com a ferramenta do Google Cloud Compute Engine, foi criado a infraestrutura
@@ -191,9 +191,9 @@ const DetailsTCCPosGraduacao = ({ setShowDetails, showDetails }: Props) => {
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <BsGithub size={28}
-                          className="hidden lg:flex my-2" /> <strong>&nbsp; Git Hub Actions:&nbsp;</strong>
+                          className="flex my-2" /> <strong>&nbsp; Git Hub Actions:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Para facilitar o deploy do frontend, foi utilziado o Git Hub Actions para

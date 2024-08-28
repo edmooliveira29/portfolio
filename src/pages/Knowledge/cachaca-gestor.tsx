@@ -52,11 +52,9 @@ const DetailsCachacaGestor = ({ setShowDetails, showDetails }: Props) => {
           <DialogPanel
             transition
             className="
-            overflow-y-auto 
               lg:w-[90%]
               relative 
               transform 
-              overflow-hidden 
               rounded-lg 
               bg-gray-900 
               text-left 
@@ -121,72 +119,72 @@ const DetailsCachacaGestor = ({ setShowDetails, showDetails }: Props) => {
                   <h3 className="text-xl font-bold">Principais Tecnologias e Ferramentas Utilizadas:</h3>
                   <ul>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <TbBrandReactNative size={28}
-                          className="hidden lg:flex my-2" /><strong>&nbsp;React Native:&nbsp;</strong>
+                          className="flex my-2" /><strong>&nbsp;React Native:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a criação do sistema mobile
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <DiFirebase size={28}
-                          className="hidden lg:flex my-1" /><strong>&nbsp;Firebase:&nbsp;</strong>
+                          className="flex my-1" /><strong>&nbsp;Firebase:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para gerenciamento de notificações do sistema mobile.
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaAngular size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;Angular:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;Angular:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Utilizado para o desenvolvimento do frontend do sistema.
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaReact size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;React:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;React:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Utilizado para o desenvolvimento do novo sistema do Cachaça Gestor.
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <RiTailwindCssFill size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;Tailwind:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;Tailwind:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Utilizado para criar a responsividade do novo sistema
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiCypress size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;Cypress:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;Cypress:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Utilizado para testes automatizados do sistema administrador
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaGitlab size={28}
-                          className="hidden lg:flex my-1" /> <strong>&nbsp;Cypress:&nbsp;</strong>
+                          className="flex my-1" /> <strong>&nbsp;Cypress:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Local onde é realizado a gestão dos repositórios
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiJasmine size={28}
-                          className="hidden lg:flex my-2" /> <strong>&nbsp;Jasmine:&nbsp;</strong>
+                          className="flex my-2" /> <strong>&nbsp;Jasmine:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Em conjunto com o Karma é utilizado para realizar alguns testes unitários do sistema em Angular

@@ -47,13 +47,12 @@ const DetailsFarol = ({ setShowDetails, showDetails }: Props) => {
         <div className="lg:flex lg:justify-center p-4 text-center">
           <DialogPanel
             transition
-            className="overflow-y-auto
+            className="
               border-rounded
               border 
               border-black
               lg:w-[90%] 
               relative transform
-              overflow-hidden
               rounded-lg 
               bg-gray-900 
               text-left 
@@ -112,9 +111,9 @@ const DetailsFarol = ({ setShowDetails, showDetails }: Props) => {
                   <h3 className="text-xl font-bold">Principais Tecnologias e Ferramentas Utilizadas:</h3>
                   <ul>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaReact size={28}
-                          className="hidden lg:flex my-2" /><strong>&nbsp;React:&nbsp;</strong>
+                          className="flex my-2" /><strong>&nbsp;React:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a criação de componentes reutilizáveis e para gerenciar o
@@ -122,45 +121,45 @@ const DetailsFarol = ({ setShowDetails, showDetails }: Props) => {
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiPrettier size={28}
-                          className="hidden lg:flex my-2" /><strong>&nbsp;Prettier:&nbsp;</strong>
+                          className="flex my-2" /><strong>&nbsp;Prettier:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Integrado para formatar o código e garantir a consistência do código
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiEslint size={28}
-                          className="hidden lg:flex my-2" /> <strong>&nbsp;ESLint:&nbsp;</strong>
+                          className="flex my-2" /> <strong>&nbsp;ESLint:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para procurar erros e melhorar o código, garantindo a qualidade e mantenibilidade do código.
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <RiTailwindCssFill size={28}
-                          className="hidden lg:flex my-2" /><strong>&nbsp;Tailwind:&nbsp;</strong>
+                          className="flex my-2" /><strong>&nbsp;Tailwind:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para garantir uma interface responsiva e visualmente atraente.
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiStyledcomponents size={28}
-                          className="hidden lg:flex my-2" /><strong>&nbsp;Styled Components:&nbsp;</strong>
+                          className="flex my-2" /><strong>&nbsp;Styled Components:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         O styled components foi utilizado para a estilização do site, garantindo uma interface visualmente atraente.
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiJest size={28}
-                          className="hidden lg:flex my-2" /><strong>&nbsp;Jest:&nbsp;</strong>
+                          className="flex my-2" /><strong>&nbsp;Jest:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para testar as funcionalidades do backend, garantindo a qualidade e a confiabilidade do código.
@@ -179,7 +178,7 @@ const DetailsFarol = ({ setShowDetails, showDetails }: Props) => {
                 </div>
               </div>
             </div>
-            <div className="flex bg-gray-900 px-4 py-3 justify-center">
+            <div className="grid lg:flex bg-gray-900 px-4 py-3 justify-center">
               <Button onClick={() => window.open("https://farol.fun", "_blank")}
                 title="ABRIR SITE"
                 icon="website" />

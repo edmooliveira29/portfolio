@@ -29,8 +29,6 @@ const DetailsYatto = ({ setShowDetails, showDetails }: Props) => {
       <DialogBackdrop
         transition
         className="
-          justify-center 
-          items-center 
           fixed 
           inset-0
           bg-gray-500
@@ -42,18 +40,16 @@ const DetailsYatto = ({ setShowDetails, showDetails }: Props) => {
           data-[enter]:ease-out 
           data-[leave]:ease-in"
       />
-      <div className="fixed inset-0 z-10 overflow-y-auto flex justify-center top-20">
-        <div className="lg:flex lg:justify-center p-4 text-center lg:items-center">
+      <div className="fixed inset-0 z-10 overflow-y-auto flex justify-center top-20 lg:items-center">
+        <div className="lg:flex lg:justify-center p-4 text-center lg:items-center h-fit">
           <DialogPanel
             transition
             className="
-            overflow-y-auto
               border-rounded
               border 
               border-black
               lg:w-[90%] 
               relative transform
-              overflow-hidden
               rounded-lg 
               bg-gray-900 
               text-left 
@@ -84,7 +80,7 @@ const DetailsYatto = ({ setShowDetails, showDetails }: Props) => {
                   </div>
                 </div>
                 <div className="w-full lg:w-1/2 p-5">
-                  <h1 className="text-3xl font-bold idden lg:flex my-2 justify-between">
+                  <h1 className="text-3xl font-bold hidden lg:flex my-2 justify-between">
                     DSS TECHNOLOGY - YATTO
                     <CgClose size={25}
                       onClick={() => { setOpen(false); setShowDetails({ ...showDetails, yatto: false }) }}
@@ -99,9 +95,9 @@ const DetailsYatto = ({ setShowDetails, showDetails }: Props) => {
                   <h3 className="text-xl font-bold">Principais Tecnologias e Ferramentas Utilizadas:</h3>
                   <ul>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaReact size={28}
-                          className="idden lg:flex my-3" /><strong>&nbsp;React:&nbsp;</strong>
+                          className="flex my-3" /><strong>&nbsp;React:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a criação de componentes reutilizáveis e para gerenciar o
@@ -109,7 +105,7 @@ const DetailsYatto = ({ setShowDetails, showDetails }: Props) => {
                       </div>
                     </li>
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <RiNextjsLine size={28}
                           className="idden lg:flex my-3" /><strong>&nbsp;Next.js:&nbsp;</strong>
                       </div>
@@ -120,7 +116,7 @@ const DetailsYatto = ({ setShowDetails, showDetails }: Props) => {
                     </li>
 
                     <li className="flex mb-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <RiTailwindCssFill size={28}
                           className="idden lg:flex my-3" /><strong>&nbsp;Tailwind:&nbsp;</strong>
                       </div>

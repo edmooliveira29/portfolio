@@ -29,8 +29,7 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
       className="relative z-10 lg:w-[90%]">
       <DialogBackdrop
         transition
-        className="justify-center 
-          items-center 
+        className=" 
           fixed 
           inset-0
           bg-gray-500
@@ -42,18 +41,16 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
           data-[enter]:ease-out 
           data-[leave]:ease-in"
       />
-      <div className="fixed inset-0 z-10 overflow-y-auto flex justify-center top-20">
-        <div className="lg:flex lg:justify-center p-4 text-center ">
+      <div className="fixed inset-0 z-10 overflow-y-auto flex justify-center top-20 lg:items-center">
+        <div className="lg:flex lg:justify-center p-4 text-center h-fit">
           <DialogPanel
             transition
             className="
-              overflow-y-auto
               border-rounded
               border 
               border-black
               lg:w-[90%] 
               relative transform
-              overflow-hidden
               rounded-lg 
               bg-gray-900 
               text-left 
@@ -99,9 +96,9 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
                   <h3 className="text-xl font-bold">Principais Tecnologias e Ferramentas Utilizadas:</h3>
                   <ul>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaReact size={28}
-                          className="hidden lg:flex my-2" /><strong>&nbsp;React:&nbsp;</strong>
+                          className="flex my-2" /><strong>&nbsp;React:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a criação de componentes reutilizáveis e para gerenciar o
@@ -109,9 +106,9 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <BsBootstrap size={28}
-                          className="hidden lg:flex my-2" /> <strong>&nbsp;Bootstrap:&nbsp;</strong>
+                          className="flex my-2" /> <strong>&nbsp;Bootstrap:&nbsp;</strong>
                       </div>
                       <div className="w-full flex w-full lg:w-[82%] items-center">
                         Responsável pelo layout responsivo e pelo estilo geral do site,
@@ -120,9 +117,9 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
 
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
 
-                        <FaFontAwesome className="w-8 h-8 hidden lg:flex my-3" /><strong>&nbsp;FontAwesome:&nbsp;</strong>
+                        <FaFontAwesome className="w-8 h-8 flex my-3" /><strong>&nbsp;FontAwesome:&nbsp;</strong>
                       </div>
 
                       <div className="flex w-full lg:w-[82%] items-center">
@@ -133,13 +130,13 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
 
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center my-3">
+                      <div className="flex w-full lg:w-[18%] items-center my-3">
                         <svg xmlns="http://www.w3.org/2000/svg"
                           aria-hidden="true"
                           role="img"
                           viewBox="0 0 510.88 512"
                           fill="currentColor"
-                          className="w-6 h-6 hidden lg:flex">
+                          className="w-6 h-6 flex">
                           <rect x="270.57"
                             width="240.31"
                             height="240.31"
@@ -160,18 +157,18 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <SiReactrouter size={28}
-                          className="hidden lg:flex my-2" /> <strong>&nbsp;React Router DOM:&nbsp;</strong>
+                          className="flex my-2 mx-2" /> <strong>&nbsp;React Router DOM:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Utilizado para a navegação interna do site, permitindo a criação de uma SPA (Single Page Application).
                       </div>
                     </li>
                     <li className="flex my-1 border-solid border-b border-gray-700">
-                      <div className="lg:flex w-full lg:w-[18%] items-center">
+                      <div className="flex w-full lg:w-[18%] items-center">
                         <FaSass size={28}
-                          className="hidden lg:flex my-2" /><strong>&nbsp;Node-Sass:&nbsp;</strong>
+                          className="flex my-2" /><strong>&nbsp;Node-Sass:&nbsp;</strong>
                       </div>
                       <div className="flex w-full lg:w-[82%] items-center">
                         Incorporado para permitir a escrita de estilos em SCSS, oferecendo uma melhor organização e reutilização de estilos.
@@ -186,7 +183,7 @@ const DetailsUaiMobi = ({ setShowDetails, showDetails }: Props) => {
                 </div>
               </div>
             </div>
-            <div className="flex bg-gray-900 px-4 py-3 justify-center">
+            <div className="grid lg:flex bg-gray-900 px-4 py-3 justify-center">
               <Button onClick={() => window.open("https://uaimobi.com.br", "_blank")}
                 title="ABRIR SITE"
                 icon="website" />
