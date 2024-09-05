@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] })
 const App = () => {
   return (
     <><main
-      className={`grow ${inter.className}`}
+      className={`grow bg-gray-900 ${inter.className}`}
     >
       <Header />
       <div className="bg-gray-900 lg:px-20"

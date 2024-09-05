@@ -6,8 +6,8 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 
 const Footer = ({ border = false }: { border?: boolean }) => {
   return (
-    <footer>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <footer className="bg-gray-900">
+      <div className=" mx-auto max-w-6xl px-4 sm:px-6">
         <div
           className={`grid gap-10 py-8 sm:grid-cols-12 md:py-12
            ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
