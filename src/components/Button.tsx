@@ -38,7 +38,7 @@ export const Button = ({ onClick, title, icon }: ButtonProps) => {
     <button type="button"
       className={`
       m-2
-      w-${title.includes("Certificado")? "[300px]" : "[200px]"}
+      w-${title.includes("Certificado")? "[300px]" : "[250px]"}
       flex
       items-center
       rounded 
