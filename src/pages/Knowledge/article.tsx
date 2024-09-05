@@ -81,12 +81,13 @@ const DetailsArticle = ({ setShowDetails, showDetails }: Props) => {
                 </div>
                 <div className="w-full lg:w-1/2 p-5 relative">
 
-                  <h1 className=" text-3xl font-bold flex justify-between">
+                  <h1 className="text-3xl font-bold hidden lg:flex justify-between">
                     ARTIGO PUBLICADO
                     <CgClose size={25}
                       className="cursor-pointer"
                       onClick={() => { setOpen(false); setShowDetails({ ...showDetails, article: false }) }} />
-                  </h1>                  <p>
+                  </h1>                  
+                  <p>
                     Este artigo é resultado de uma pesquisa realizado como Trabalho de Conclusão de Curso
                     de Engenharia da Computação da Universidade Federal de Ouro Preto realizado em conjunto com os professores doutores
                     <a className="font-bold text-gray-200 text-opacity-100"

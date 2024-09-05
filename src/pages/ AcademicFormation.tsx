@@ -7,6 +7,7 @@ import scrum2 from "@/assets/certificates/alura-manifesto-agil-parte-2.png"
 import figma from "@/assets/certificates/alura-figma-trabalhando-na-contrucao-de-um-design-system.png"
 import googleDeveloper from "@/assets/certificates/google-developer.png"
 import nodeJsCloud from "@/assets/certificates/alura-nodejs-adicionando-ci-ao-projeto-e-deploy-no-google.png"
+import aluraCssFlexboxLayouts from "@/assets/certificates/alura-css-flexbox-e-layouts-responsivos.png"
 import rocketseat from "@/assets/certificates/rocketseat.png"
 import Image from "next/image"
 import { Button } from "@/components/Button"
@@ -25,6 +26,50 @@ const AcademicFormation = () => {
       </h1>
       <div className="mx-auto w-full">
         <div className="overflow-hidden p-10">
+          <div className="mb-8 lg:flex justify-between items-center w-full right-timeline">
+            <div className="order-1 w-1/2"></div>
+            <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
+              <h1 className="mx-3 text-white font-semibold text-lg">11</h1>
+            </div>
+            <div className="order-1 
+            bg-gray-400 
+            rounded-lg 
+            shadow-xl 
+            w-full 
+            md:w-1/2 
+            px-6 
+            py-4 
+            transition-transform 
+            hover:translate-y-[-20px]
+             duration-500">
+              <h3 className="font-bold text-gray-800 text-xl"> SETEMBRO 2024 </h3>
+              <h3 className="font-bold text-gray-800 text-md">CSS: Flexbox e layouts responsivos </h3>
+              <a className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100"
+                href="https://www.alura.com.br/curso-online-css-flexbox-layouts-responsivos"
+                target="_blank"
+                rel="noreferrer">
+                <h3 className="mb-3 font-bold text-gray-800 text-md">ALURA</h3>
+              </a>
+              <div className="flex justify-center">
+                <Image src={aluraCssFlexboxLayouts.src}
+                  width={300}
+                  height={300}
+                  alt="Alura" />
+              </div>
+              <div className="flex justify-center">
+                <Button title="Ver Certificado"
+                  onClick={() => window.open("https://cursos.alura.com.br/user/edmo-oliveira/course/css-flexbox-layouts-responsivos/certificate")}
+                  icon={"website"} />
+                <Button title="Projeto"
+                  onClick={() => window.open("/courses/alura-course-css-flexbox-and-responsive-layouts")}
+                  icon={"website"} />
+                <Button title="Abrir Repositório"
+                  onClick={() => window.open("https://github.com/edmooliveira29/alura-course-css-flexbox-and-responsive-layouts")}
+                  icon={"github"} />
+              </div>
+            </div>
+          </div>
+
           <div className="mb-8 lg:flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-1/2"></div>
             <div className="mx-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden md:block">
@@ -76,9 +121,9 @@ const AcademicFormation = () => {
             hover:translate-y-[-20px]
              duration-500">
               <h3 className="font-bold text-gray-800 text-xl"> FEVEREIRO 2024 </h3>
-              <h3 className="font-bold text-gray-800 text-md">NLW Expert trilha de Python,</h3>
+              <h3 className="font-bold text-gray-800 text-md">NLW Expert trilha de Python</h3>
               <a className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100"
-                href="https://alura.com.br"
+                href="https://rocketseat.com.br"
                 target="_blank"
                 rel="noreferrer">
                 <h3 className="mb-3 font-bold text-gray-800 text-md">ROCKETSEAT</h3>
