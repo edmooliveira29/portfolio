@@ -56,7 +56,7 @@ const AcademicFormation = () => {
                   height={300}
                   alt="Alura" />
               </div>
-              <div className="flex justify-center">
+              <div className="flex justify-center flex-wrap">
                 <Button title="Ver Certificado"
                   onClick={() => window.open("https://cursos.alura.com.br/user/edmo-oliveira/course/css-flexbox-layouts-responsivos/certificate")}
                   icon={"website"} />
@@ -263,7 +263,7 @@ const AcademicFormation = () => {
 
               </p>
               <div className="flex justify-center">
-                <Button title="Ver certificado"
+                <Button title="Ver Certificado"
                   onClick={() => window.open("https://drive.google.com/file/d/1CkZKSaewgCweIvLwb_3eAPWR9TfmFnlD/view?usp=drive_link")}
                   icon={"website"} />
               </div>

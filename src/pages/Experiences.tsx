@@ -14,7 +14,7 @@ const Experiences = () => {
           <div className="w-full">
             <div className="flex">
               <div className="-ml-2.5 h-5 w-5 rounded-full bg-white" />
-              <div className="ml-6 w-1/3">
+              <div className="ml-4 w-1/3">
                 <h4 className="font-bold text-white">DEZ - 2021 - ATUALMENTE</h4>
                 <h4 className="text-[12px] text-white">{experienceTime("2021-12-21")}</h4>
                 <h4 className="font-bold text-white">Desenvolvedor Frontend Júnior</h4>
@@ -25,7 +25,7 @@ const Experiences = () => {
                     rel="noreferrer">Cachaça Gestor</a>
                 </span>
               </div>
-              <div className="ml-2 w-2/3">
+              <div className="ml-3 w-2/3">
                 <p className="text-sm text-gray-500">
                   Responsável pelo desenvolvimento e manutenção do FrontEnd em AngularJS com as tecnologias
                   HTML5, CSS e JavaScript, manutenções simples  no Banco de Dados em MongoDB nas linguagens de programação TypeScript
@@ -44,10 +44,10 @@ const Experiences = () => {
           <div className="w-full">
             <div className="flex">
               <div className="-ml-2.5 h-5 w-5 rounded-full bg-white" />
-              <div className="ml-6 w-1/3">
+              <div className="ml-4 w-1/3">
                 <h4 className="font-bold text-white">MARÇO - 2020 - NOVEMBRO 2021</h4>
                 <h4 className="text-[12px] text-white">1 ano e 8 meses</h4>
-                <h4 className="font-bold text-white">Estagiário em desenvolvimento frontend</h4>
+                <h4 className="font-bold text-white">Estagiário como desenvolvedor frontend</h4>
                 <span className="mt-1 block text-sm font-semibold text-white">Ouro Preto - MG</span>
                 <span className="mt-1 block text-sm text-white">
                   <a href="https://www.cachacha.com.br"
@@ -55,7 +55,7 @@ const Experiences = () => {
                     rel="noreferrer">Cachaça Gestor</a>
                 </span>
               </div>
-              <div className="ml-2 w-2/3">
+              <div className="ml-3 w-2/3">
                 <p className="text-sm text-gray-500">
                   Atuando sob a supervisão de <a className="font-[700]"
                     href="https://www.linkedin.com/in/joaovqm/"
@@ -80,14 +80,14 @@ const Experiences = () => {
           <div className=" w-full">
             <div className="flex">
               <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full bg-white" />
-              <div className="ml-6 w-1/3">
+              <div className="ml-4 w-1/3">
                 <h4 className="font-bold text-white">ABRIL 2019 - OUTUBRO 2021 </h4>
                 <h4 className="text-[12px] text-white">2 anos e 6 meses</h4>
                 <h4 className="font-bold text-white">Projeto LOCOBOTS - UFOP</h4>
                 <span className="mt-1 block text-sm font-semibold text-white">João Monlevade - MG</span>
                 <span className="mt-1 block text-sm text-white">Voluntário</span>
               </div>
-              <div className="ml-2 w-2/3">
+              <div className="ml-3 w-2/3">
                 <p className="text-sm text-gray-500">
                   Projeto sobre Robótica que acontece dentro da Universidade Federal de Ouro Preto no Campus de
                   Ciências Exatas e Aplicadas. Neste projeto atuei como voluntário no subprojeto de construção e manutenção
@@ -112,14 +112,14 @@ const Experiences = () => {
           <div className=" w-full">
             <div className="flex">
               <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full bg-white" />
-              <div className="ml-6 w-1/3">
+              <div className="ml-4 w-1/3">
                 <h4 className="font-bold text-white">JAN 2016 - DEZEMBRO 2022</h4>
                 <h4 className="text-[12px] text-white">7 anos</h4>
                 <h4 className="font-bold text-white">Técnico em Informática</h4>
                 <span className="mt-1 block text-sm font-semibold text-white">Barão de Cocais - MG</span>
                 <span className="mt-1 block text-sm text-white">Autônomo</span>
               </div>
-              <div className="ml-2 w-2/3">
+              <div className="ml-3 w-2/3">
                 <p className="text-sm text-gray-500">
                   Instalação de sistemas operacionais, instalação de softwares, montagem de computadores, reparo de hardware,
                   manutenção em impressoras, dimensionamento rede e cabeamento e configuração
@@ -131,14 +131,14 @@ const Experiences = () => {
           <div className=" w-full">
             <div className="flex">
               <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full bg-white" />
-              <div className="ml-6 w-1/3">
+              <div className="ml-4 w-1/3">
                 <h4 className="font-bold text-white">FEVEREIRO 2018 - JULHO 2018</h4>
                 <h4 className="font-bold text-white">Estagiário</h4>
                 <h4 className="text-[12px] text-white">6 meses</h4>
                 <span className="mt-1 block text-sm font-semibold text-white">Barão de Cocais - MG</span>
                 <span className="mt-1 block text-sm text-white">CREA - MG</span>
               </div>
-              <div className="ml-2 w-2/3">
+              <div className="ml-3 w-2/3">
                 <p className="text-sm text-gray-500">
                   Atuei como estagiário no Escritório do Crea na cidade de Barão de Cocais - MG.
                   Facilitando a conexão entre Técnicos e Engenheiros da região para realizar seus procedimentos.
@@ -152,14 +152,14 @@ const Experiences = () => {
           <div className=" w-full">
             <div className="flex">
               <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full bg-white" />
-              <div className="ml-6 w-1/3">
+              <div className="ml-4 w-1/3">
                 <h4 className="font-bold text-white">JAN 2016 - AGOSTO 2016</h4>
                 <h4 className="text-[12px] text-white">7 anos</h4>
                 <h4 className="font-bold text-white">Auxiliar administrativo</h4>
                 <span className="mt-1 block text-sm font-semibold text-white">Barão de Cocais - MG</span>
                 <span className="mt-1 block text-sm text-white">PMBC - UFV - CBCN</span>
               </div>
-              <div className="ml-2 w-2/3">
+              <div className="ml-3 w-2/3">
                 <p className="text-sm text-gray-500">
                   Este trabalho foi um conjunto entre a Prefeitura Municipal de Barão de Cocais, a Universidade Federal de Viçosa e a empresa
                   Centro Brasileiro para Conservação da Natureza e Desenvolvimento Sustentável (CBCN)

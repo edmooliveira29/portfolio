@@ -36,8 +36,9 @@ const selectIcon = (icon: "website" | "github" | "drive" | "instagram" | "playst
 export const Button = ({ onClick, title, icon }: ButtonProps) => {
   return (
     <button type="button"
-      className="
+      className={`
       m-2
+      w-${title.includes("Certificado")? "[300px]" : "[200px]"}
       flex
       items-center
       rounded 
@@ -57,7 +58,7 @@ export const Button = ({ onClick, title, icon }: ButtonProps) => {
       focus:border-neutral-100 
       active:border-neutral-200
       active:text-neutral-200
-      justify-center"
+      justify-center`}
       onClick={onClick}>
       {title}
       {selectIcon(icon)}
