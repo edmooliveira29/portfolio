@@ -4,21 +4,21 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 
 const Home = () => {
   return (
-    <section className="px-5 py-10 lg:py-20 lg:px-0 text-white items-center">
+    <section className="px-5 py-10 lg:py-20 lg:px-0 text-white items-center leading-5">
       <div className="mb-30">
         <h2 className="text-3xl">Olá, eu sou&nbsp;</h2>
         <h1 className="text-3xl font-bold text-gray-300"> EDMO DE OLIVEIRA</h1>
-        <h1 className="text-xl">Full Stack Developer </h1>
+        <h1 className="text-xl">Engenheiro de Software </h1>
 
       </div>
-      <i>
+      <div>
         Desenvolvedor Web, mobile, evoluindo para gerenciamento de projetos com a 
         utilizando da Metodologia Ágil com o método Scrum.&nbsp;
-      </i>
+      </div>
       <br></br>
       <br></br>
 
-      <div className="pb-10">
+      <div className="pb-10 space-y-2">
         Formado em Engenharia de Computação pela Universidade Federal de Ouro Preto
         e pós graduação em Desenvolvimento Web Fullstack, no qual me instigou a aprender e
         utilizar os princípios da Arquitetura Limpa e Código Limpo.
